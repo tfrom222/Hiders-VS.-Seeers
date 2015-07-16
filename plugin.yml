@@ -1,0 +1,16 @@
+main: tfrom222.myfirstplugin.MyFirstPlugin
+name: Hiders_VS._Seeker
+version: 0.1
+author: Tobias Maneschijn
+description: Custom Plugin for my server
+commands:
+ beginseek:
+    description: Starts the Hiders VS. Seeker gamemode.
+    usage: /beginseek
+ stopseek:
+    description: Stops the Hiders VS. Seeker gamemode.
+    usage: /stopseek
+ setupseek:
+    description: Set the hider or seeker spawnpoint
+    usage: /setupseek <setseekerspawn/sethiderspawn>
+ 
